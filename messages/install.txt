@@ -1,0 +1,30 @@
+Thank you for installing ChineseLoremIpsum
+
+Start
+==========================
+
+By default, just type 'Clorem' and press Alt + C, Chinese lorem just pop out.
+
+
+With character counts
+==========================
+
+Pop how many characters you want by adding number after 'Clorem', like
+'Clorem200'.
+
+
+Switch between traditional Chinese and simplified Chinese
+==========================
+
+Default output is simplified Chinese. To switch to tradition Chinese, just
+enter 'CTlorem' instead 'Clorem'. Default output will become traditional
+Chinese.
+
+To switch back to simplified Chinese, just enter 'CSlorem' insted 'Clorem'.
+
+
+Issues
+==========================
+If you encounter any issues, create a ticket at github to let me know.
+
+https://github.com/cjltsod/sublime-ChineseLoremIpsum/issues
