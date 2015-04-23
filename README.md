@@ -20,4 +20,4 @@ Switch between traditional Chinese and simplified Chinese
 ------
 Default output is simplified Chinese. To switch to tradition Chinese, just enter `CTlorem` instead `Clorem`. Default output will become traditional Chinese.
 
-To switch back to simplified Chinese, just enter `CSlorem` insted `Clorem`.
+To switch back to simplified Chinese, just enter `CSlorem` instead `Clorem`.
