@@ -1,0 +1,46 @@
+[  
+    {  
+        "keys": ["alt+c"],
+        "command": "chinese_lorem_ipsum",
+        "context": [
+            {
+                "operand": "source.css, source.sass, source.less, source.scss, source.stylus, source.jade, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string", 
+                "operator": "equal", 
+                "match_all": true, 
+                "key": "selector"
+            }, 
+            {
+                "operand": "storage.type.templatetag.django", 
+                "operator": "not_equal", 
+                "match_all": true, 
+                "key": "selector"
+            }, 
+            {
+                "match_all": true, 
+                "key": "selection_empty"
+            }, 
+            {
+                "operator": "equal", 
+                "operand": false, 
+                "match_all": true, 
+                "key": "has_next_field"
+            }, 
+            {
+                "operator": "equal", 
+                "operand": false, 
+                "match_all": true, 
+                "key": "setting.disable_tab_abbreviations"
+            }, 
+            {
+                "operand": false, 
+                "operator": "equal", 
+                "match_all": true, 
+                "key": "auto_complete_visible"
+            }, 
+            {
+                "match_all": true, 
+                "key": "is_abbreviation"
+            }
+        ]
+    }  
+]
