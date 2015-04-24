@@ -111,15 +111,27 @@ class ChineseLoremIpsumCommand(sublime_plugin.TextCommand):
             )
 
             # r'(Clorem|Clipsum)(\d+)?(\.\d+)?$'
-            re_s = re.search(r'(Clorem|Clipsum)(\d+)?$', lastchars)
+            re_s = re.search(
+                r'(Clorem|Clipsum)(\d+)?$',
+                lastchars,
+                re.IGNORECASE
+            )
 
             if not re_s:
-                re_s = re.search(r'(CTlorem|CTlipsum)(\d+)?$', lastchars)
+                re_s = re.search(
+                    r'(CTlorem|CTlipsum)(\d+)?$',
+                    lastchars,
+                    re.IGNORECASE
+                )
                 if re_s:
                     self.WORDS = self.WORDS_CHT
 
             if not re_s:
-                re_s = re.search(r'(CSlorem|CSlipsum)(\d+)?$', lastchars)
+                re_s = re.search(
+                    r'(CSlorem|CSlipsum)(\d+)?$',
+                    lastchars,
+                    re.IGNORECASE
+                )
                 if re_s:
                     self.WORDS = self.WORDS_CHS
 
